@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Questrial';
+	src: url('Questrial-Regular.ttf') format('truetype');
+}
+
+* {
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    overflow: auto;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.header{
+    display: flex;
+    width: max-content;
+    gap: 12px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    overflow: auto;
+    width: 100%;
+}
+
+#KDTreeDisplay {
+    position: relative;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    gap: 18px;
+}
+
+.node {
+    display: flex;
+    grid-template-columns: auto auto;
+    border: 2px black solid;
+    padding: 0 6px;
+    background-color: white;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
